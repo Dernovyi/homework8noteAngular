@@ -1,0 +1,15 @@
+<div class="container">
+
+  <h3>Create Note</h3>
+  <form (ngSubmit) = "onSubmit()">
+    <div class="form-group">
+
+      <div class="form-group">
+        <label for="text">Text</label>
+        <textarea class="form-control rounded-0" id = "text" [(ngModel)] = "note.text" name="text" rows="3"></textarea>
+      </div>
+    </div>
+
+    <button class="btn btn-success" type ="submit">Add</button>
+  </form>
+</div>

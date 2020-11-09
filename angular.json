@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "homework8noteAngular"
+    }
+  },
+  "defaultProject": "homework8noteAngular",
+  "cli": {
+    "analytics": false
+  }
 }
